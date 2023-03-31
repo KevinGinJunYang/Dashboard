@@ -1,0 +1,52 @@
+.app.dark{
+    background-color: black;
+    color: white;
+
+    .chartGrid{
+        stroke: rgb(54, 54, 54);
+    }
+
+    .table{
+        background-color: black;
+
+        .tableCell{
+            color: grey;
+        }
+    
+    }
+
+    .navbar{
+        color: white;
+    }
+
+    .sidebar{
+        background-color: black;
+        color: white;
+
+        ul {
+            li {
+              &:hover {
+                background-color: #333;
+              }
+            }
+        }
+    }
+
+    .datatable {
+        .datagrid {
+          color: gray;
+
+          .viewButton{
+            color:gray;
+          }
+
+          .MuiButtonBase-root, .MuiTablePagination-root, .MuiInputBase-root{
+            color:gray;
+          }
+        }
+      }
+
+      input{
+        background-color: transparent;
+    }
+}
